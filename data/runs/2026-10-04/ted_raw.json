@@ -1,0 +1,1011 @@
+{
+  "schema_version": 1,
+  "source": "Tenders Electronic Daily",
+  "endpoint": "https://api.ted.europa.eu/v3/notices/search",
+  "retrieved_at": "2026-10-04T11:11:15.871779+00:00",
+  "as_of": "2026-10-04",
+  "date_start": "2026-08-06",
+  "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+  "cpv_prefixes": [
+    "48",
+    "72"
+  ],
+  "status": "complete",
+  "source_total": 3709,
+  "records_retrieved": 3709,
+  "pages": [
+    {
+      "file": "raw/page-0001.json",
+      "sha256": "bfdca6fbccd75fefde74ec70eda4d85e181ab8d7070c0c0cfe18d6a1e5c94837",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:16.724199+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true
+      }
+    },
+    {
+      "file": "raw/page-0002.json",
+      "sha256": "350557e1878a2b3c77f44557b2728396f07483880890676100da193d3cb6eb08",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:18.628596+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacaTQACJKbXJu13lceuDxunpiRb+W0rUmVAPrj0zPZ1ayxit34LgwRtKT7P//VcYFnY9NRG+oliUhboantMzPNx/JIbJbN4jpiNSzIxAqNeThHWw=="
+      }
+    },
+    {
+      "file": "raw/page-0003.json",
+      "sha256": "bda8f0d61a768bb3f68abfa5cce1a513968a2915e339950f26a9de855e56eb04",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:19.319602+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQaccRwACI8Aqyou6Cj/AG1VRPbS76YJOTDVzIgCo27ZnVmfAPW1Jk7fjyvAiLsQfg0ur1mXM8sMEibFg+2WA6ysKtqUTyXjPW/6pXxs/g4M0ggJzA=="
+      }
+    },
+    {
+      "file": "raw/page-0004.json",
+      "sha256": "91fb12894190948334a086078dceea15929ff26f367da96502c9f9db7845e8ae",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:21.224918+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacc7MACI8EUO+78bqEWsP1V7ebVzzK0aW21nzvW6rZZWPbGsVVsKKuW8VBWOegsfHekO3lf4q7e5O2CRb7x4cNk97qYYfizgGd8kIOewoRq5jZ7A=="
+      }
+    },
+    {
+      "file": "raw/page-0005.json",
+      "sha256": "d2e6e7ad718e82f1cbecadf19ab269cdd25fcf2e369e6f087b2d566509d935cc",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:23.267540+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQaceyYACJKjBZjgfIpLhut9MoPB7IBQitAHLXRvYbqVcmPIn0kJHpti6AcHEUsCiiIyvK988+nvc2mNOeAc0kp+QUfRhNKEfN7iATxnxd0n3rDxqA=="
+      }
+    },
+    {
+      "file": "raw/page-0006.json",
+      "sha256": "28a5065fd9c64b21a660512747d30f947c54066a15f23c275fb744a2777a4e79",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:25.220169+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacgxoACI8KaJAaZtQbLCs3+CkTHFLnwH14uBOkBPZEsqT1giHjhyBUeILKzD43boouZ4zaqyU8I3UHzZRnlqmU9uX2falI1do7RKq0u2V+oHNEqw=="
+      }
+    },
+    {
+      "file": "raw/page-0007.json",
+      "sha256": "af75e7a955a5bf390e730cd68d35f7c3e4981c4057e7853669e55b381c70601d",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:25.749896+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacitEACI8PHYOSaImYgc/214+uerYE3HSjIEfPnX6vZ8Ddz3Ux4bTGY0Lt+KVVBpckKX81u5gouq8wlKhOvB5uVe8GmCupZuwfazrQ88DvhPWtXQ=="
+      }
+    },
+    {
+      "file": "raw/page-0008.json",
+      "sha256": "b72464f304c641eb0659412e45d0a42b9b9493917b8c0419d8320d9db0b0cae3",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:27.176726+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacjO8ACJKtXXC1GDPFzpPiStBVB+S27t/KoBEN2ycJ/ZWJnYjXUIveVY8HrTttgV5TBMoGjj9CFnVwkMhuhWrrghRokBFzI16R+Mikl+zdTsXWCA=="
+      }
+    },
+    {
+      "file": "raw/page-0009.json",
+      "sha256": "e97eea90e616ccd6092ae08d54d315dcf8e8eef951a7750f15a256245cbf6c16",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:27.774318+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQackrYACJKxVOAFEZYH/1b+SUFmjFZqjniL1C3OaIzlOp8FAKW+vnsnRhyfhuJNUY1wslAbWYv/X/SLIZ6N4BMZE5fQ474n+vtBZ1Dzgf4+dQ4Jzg=="
+      }
+    },
+    {
+      "file": "raw/page-0010.json",
+      "sha256": "03815be50112b742bf5eaefe44d49975d70f5475f3ea90c8f0d0c094a0b9165b",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:29.877033+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQaclNcACJKyOtaRY74TSZlqxoFe6JHSNMVScXUlxrWR7/YZ/9EPCK7j9eJRaBt+nE/x9GSNDoKnC7NOJnSAlhS3rQI/6exxRwqheSV0kZoCKo84cw=="
+      }
+    },
+    {
+      "file": "raw/page-0011.json",
+      "sha256": "b3d1e86bb8565c95267009c22668ef682c339983c00fccb3770936001f224b2f",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:30.546964+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacnQEACI8ZKy1sAsrgdOEiWiddX0TEQv2G2aYSZTawbAcfJsiNr1bQBZrFHoLUHlgDRR04V6fobAF+bReDh2N6SOAFhzsc7qPi3pF9Cdq8JQeQ6Q=="
+      }
+    },
+    {
+      "file": "raw/page-0012.json",
+      "sha256": "7fcb4cdf6dbc9a21d91df3b89846ef658d98d765b987af55beb619711adb7147",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:32.624202+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacn7MACI8a42tnGKuBJWZQENsIB3AtxOmLkwEVNJbbEla+gGwpSMRAkpzCNazJ2KAOejGjFZdJLOXy5JIOQF/oj8/MQCcARaYaMn4FOxyIuDu6lQ=="
+      }
+    },
+    {
+      "file": "raw/page-0013.json",
+      "sha256": "3132106dd1f32aa9a23c1922af388fef1e1e29f6a842fc07148209bd89e1e8eb",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:34.607550+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacp6oACI8f4c1Z9wJOICBWoxsmtlvlMeX9B/Yzp8o39MuSti8zi06NaFQQqJX2g/HaVRZ8XIL7axocem3iXw0XhJwmIgKnJSrmpezSyPzxYQQteA=="
+      }
+    },
+    {
+      "file": "raw/page-0014.json",
+      "sha256": "aa54e8dfa3ad35f77ed8fcf48d9ad3eda873ded19d945686a2e1dbe11cb3a429",
+      "count": 250,
+      "retrieved_at": "2026-10-04T11:11:36.615359+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacr4AACJK/uXAa08zXcFVY/IEbHm4v7Gv2409b6LGZUI2VsCeTzK0kK6hBIKgOND4pmA401Fk7O2VZb+lMxruvyJ5CRna+1I7JGnJR5TyDp6Hh8g=="
+      }
+    },
+    {
+      "file": "raw/page-0015.json",
+      "sha256": "4e4b9c372654bfdd45e8693921e9f0cec1be1c5766285d6c2e0c0f5111d02d36",
+      "count": 209,
+      "retrieved_at": "2026-10-04T11:11:38.531740+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQact2QACI8o2KjAbsA9mOCmOGvWygL7Btp8wZ3KKlWmeRyyWlFsZ1CIg1X28U4zQrmHQiXNRpeODjglEN/IHsRqbZ4xzXqhj2Ms2DoUMrG2zK5Y3w=="
+      }
+    },
+    {
+      "file": "raw/page-0016.json",
+      "sha256": "769743c44e9ec9fab99525e2a5f5f98226ac7efa335067adc7b40a1fd9a7761e",
+      "count": 0,
+      "retrieved_at": "2026-10-04T11:11:38.757818+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacvuoACI8vKexsW/4WoPO8kNw9NDS6LNRjkH0TxARGNBeB8V2rga2lqpXT9gM/4vhs7PP2pYgRxwNEBmQe5RGNSH77UD40idZjM991OTGdjHbImg=="
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "page": 1,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:15.872193+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0001-attempt-1.json",
+      "sha256": "bfdca6fbccd75fefde74ec70eda4d85e181ab8d7070c0c0cfe18d6a1e5c94837"
+    },
+    {
+      "page": 2,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:16.725028+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacaTQACJKbXJu13lceuDxunpiRb+W0rUmVAPrj0zPZ1ayxit34LgwRtKT7P//VcYFnY9NRG+oliUhboantMzPNx/JIbJbN4jpiNSzIxAqNeThHWw=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0002-attempt-1.json",
+      "sha256": "350557e1878a2b3c77f44557b2728396f07483880890676100da193d3cb6eb08"
+    },
+    {
+      "page": 3,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:18.628855+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQaccRwACI8Aqyou6Cj/AG1VRPbS76YJOTDVzIgCo27ZnVmfAPW1Jk7fjyvAiLsQfg0ur1mXM8sMEibFg+2WA6ysKtqUTyXjPW/6pXxs/g4M0ggJzA=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0003-attempt-1.json",
+      "sha256": "bda8f0d61a768bb3f68abfa5cce1a513968a2915e339950f26a9de855e56eb04"
+    },
+    {
+      "page": 4,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:19.320481+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacc7MACI8EUO+78bqEWsP1V7ebVzzK0aW21nzvW6rZZWPbGsVVsKKuW8VBWOegsfHekO3lf4q7e5O2CRb7x4cNk97qYYfizgGd8kIOewoRq5jZ7A=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0004-attempt-1.json",
+      "sha256": "91fb12894190948334a086078dceea15929ff26f367da96502c9f9db7845e8ae"
+    },
+    {
+      "page": 5,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:21.225629+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQaceyYACJKjBZjgfIpLhut9MoPB7IBQitAHLXRvYbqVcmPIn0kJHpti6AcHEUsCiiIyvK988+nvc2mNOeAc0kp+QUfRhNKEfN7iATxnxd0n3rDxqA=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0005-attempt-1.json",
+      "sha256": "d2e6e7ad718e82f1cbecadf19ab269cdd25fcf2e369e6f087b2d566509d935cc"
+    },
+    {
+      "page": 6,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:23.268320+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacgxoACI8KaJAaZtQbLCs3+CkTHFLnwH14uBOkBPZEsqT1giHjhyBUeILKzD43boouZ4zaqyU8I3UHzZRnlqmU9uX2falI1do7RKq0u2V+oHNEqw=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0006-attempt-1.json",
+      "sha256": "28a5065fd9c64b21a660512747d30f947c54066a15f23c275fb744a2777a4e79"
+    },
+    {
+      "page": 7,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:25.220625+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacitEACI8PHYOSaImYgc/214+uerYE3HSjIEfPnX6vZ8Ddz3Ux4bTGY0Lt+KVVBpckKX81u5gouq8wlKhOvB5uVe8GmCupZuwfazrQ88DvhPWtXQ=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0007-attempt-1.json",
+      "sha256": "af75e7a955a5bf390e730cd68d35f7c3e4981c4057e7853669e55b381c70601d"
+    },
+    {
+      "page": 8,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:25.751018+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacjO8ACJKtXXC1GDPFzpPiStBVB+S27t/KoBEN2ycJ/ZWJnYjXUIveVY8HrTttgV5TBMoGjj9CFnVwkMhuhWrrghRokBFzI16R+Mikl+zdTsXWCA=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0008-attempt-1.json",
+      "sha256": "b72464f304c641eb0659412e45d0a42b9b9493917b8c0419d8320d9db0b0cae3"
+    },
+    {
+      "page": 9,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:27.177093+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQackrYACJKxVOAFEZYH/1b+SUFmjFZqjniL1C3OaIzlOp8FAKW+vnsnRhyfhuJNUY1wslAbWYv/X/SLIZ6N4BMZE5fQ474n+vtBZ1Dzgf4+dQ4Jzg=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0009-attempt-1.json",
+      "sha256": "e97eea90e616ccd6092ae08d54d315dcf8e8eef951a7750f15a256245cbf6c16"
+    },
+    {
+      "page": 10,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:27.775166+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQaclNcACJKyOtaRY74TSZlqxoFe6JHSNMVScXUlxrWR7/YZ/9EPCK7j9eJRaBt+nE/x9GSNDoKnC7NOJnSAlhS3rQI/6exxRwqheSV0kZoCKo84cw=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0010-attempt-1.json",
+      "sha256": "03815be50112b742bf5eaefe44d49975d70f5475f3ea90c8f0d0c094a0b9165b"
+    },
+    {
+      "page": 11,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:29.878056+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacnQEACI8ZKy1sAsrgdOEiWiddX0TEQv2G2aYSZTawbAcfJsiNr1bQBZrFHoLUHlgDRR04V6fobAF+bReDh2N6SOAFhzsc7qPi3pF9Cdq8JQeQ6Q=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0011-attempt-1.json",
+      "sha256": "b3d1e86bb8565c95267009c22668ef682c339983c00fccb3770936001f224b2f"
+    },
+    {
+      "page": 12,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:30.548220+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacn7MACI8a42tnGKuBJWZQENsIB3AtxOmLkwEVNJbbEla+gGwpSMRAkpzCNazJ2KAOejGjFZdJLOXy5JIOQF/oj8/MQCcARaYaMn4FOxyIuDu6lQ=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0012-attempt-1.json",
+      "sha256": "7fcb4cdf6dbc9a21d91df3b89846ef658d98d765b987af55beb619711adb7147"
+    },
+    {
+      "page": 13,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:32.625318+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacp6oACI8f4c1Z9wJOICBWoxsmtlvlMeX9B/Yzp8o39MuSti8zi06NaFQQqJX2g/HaVRZ8XIL7axocem3iXw0XhJwmIgKnJSrmpezSyPzxYQQteA=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0013-attempt-1.json",
+      "sha256": "3132106dd1f32aa9a23c1922af388fef1e1e29f6a842fc07148209bd89e1e8eb"
+    },
+    {
+      "page": 14,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:34.608666+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacr4AACJK/uXAa08zXcFVY/IEbHm4v7Gv2409b6LGZUI2VsCeTzK0kK6hBIKgOND4pmA401Fk7O2VZb+lMxruvyJ5CRna+1I7JGnJR5TyDp6Hh8g=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0014-attempt-1.json",
+      "sha256": "aa54e8dfa3ad35f77ed8fcf48d9ad3eda873ded19d945686a2e1dbe11cb3a429"
+    },
+    {
+      "page": 15,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:36.616735+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQact2QACI8o2KjAbsA9mOCmOGvWygL7Btp8wZ3KKlWmeRyyWlFsZ1CIg1X28U4zQrmHQiXNRpeODjglEN/IHsRqbZ4xzXqhj2Ms2DoUMrG2zK5Y3w=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0015-attempt-1.json",
+      "sha256": "4e4b9c372654bfdd45e8693921e9f0cec1be1c5766285d6c2e0c0f5111d02d36"
+    },
+    {
+      "page": 16,
+      "attempt": 1,
+      "retrieved_at": "2026-10-04T11:11:38.532334+00:00",
+      "request": {
+        "query": "publication-date = (20260806 <> 20261004) AND (main-classification-proc = 48* OR main-classification-proc = 72*) AND notice-type IN (cn-standard cn-social) SORT BY publication-number DESC",
+        "fields": [
+          "publication-number",
+          "notice-identifier",
+          "notice-version",
+          "notice-type",
+          "title-proc",
+          "buyer-name",
+          "buyer-country",
+          "classification-cpv",
+          "main-classification-proc",
+          "publication-date",
+          "deadline-receipt-tender-date-lot",
+          "estimated-value-proc",
+          "estimated-value-cur-proc",
+          "identifier-lot"
+        ],
+        "limit": 250,
+        "scope": "ALL",
+        "paginationMode": "ITERATION",
+        "onlyLatestVersions": true,
+        "iterationNextToken": "AAABoQacvuoACI8vKexsW/4WoPO8kNw9NDS6LNRjkH0TxARGNBeB8V2rga2lqpXT9gM/4vhs7PP2pYgRxwNEBmQe5RGNSH77UD40idZjM991OTGdjHbImg=="
+      },
+      "http_status": 200,
+      "file": "diagnostics/page-0016-attempt-1.json",
+      "sha256": "769743c44e9ec9fab99525e2a5f5f98226ac7efa335067adc7b40a1fd9a7761e"
+    }
+  ],
+  "completed_at": "2026-10-04T11:11:38.758804+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "retrieved_at": "2026-10-04T11:06:58.190454+00:00",
+  "cpv_version": "2008",
+  "derivation": "CPV/@CODE without check digit -> TEXT[@LANG=EN]; tools/build_reference.py",
+  "files": [
+    {
+      "file": "cpv_2008_xml.zip",
+      "source_url": "https://ted.europa.eu/documents/d/ted/cpv_2008_xml",
+      "sha256": "4129cbbce332c89ee7ce49b74aefa02f31848480d4c885f91cfb015191259146"
+    },
+    {
+      "file": "cpv_2008.xml",
+      "source_url": "https://ted.europa.eu/documents/d/ted/cpv_2008_xml",
+      "sha256": "542fb7a8f35f5d0e377fd0ee621e78d0804705578c4c913dc90ec012310e59ff"
+    },
+    {
+      "file": "cpv_en.json",
+      "source_url": "https://ted.europa.eu/documents/d/ted/cpv_2008_xml",
+      "sha256": "6ac8a58b5557deb1dcd009062379d720d75fa5b3ac0b4c46fd5c9d08d3445a33"
+    },
+    {
+      "file": "iso4217.xml",
+      "source_url": "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml",
+      "sha256": "33139b438657d1cee116ba737807ea71d19d6de4b90f799a09c56f0cc6a1b0ff"
+    }
+  ]
+}

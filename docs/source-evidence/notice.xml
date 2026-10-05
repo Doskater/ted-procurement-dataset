@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="POL">Krajowa Izba Odwoławcza</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>ul. Postępu 17a</cbc:StreetName>
+                  <cbc:CityName>Warszawa</cbc:CityName>
+                  <cbc:PostalZone>02-676</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>5262239325</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>224587840</cbc:Telephone>
+                  <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://pg.edu.pl/</cbc:WebsiteURI>
+                <cbc:EndpointID>https://platformazakupowa.pl/pn/pg_edu</cbc:EndpointID>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="POL">Politechnika Gdańska</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Gabriela Narutowicza 11/12</cbc:StreetName>
+                  <cbc:CityName>Gdańsk</cbc:CityName>
+                  <cbc:PostalZone>80-233</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">PL633</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>5840203593</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>583471695</cbc:Telephone>
+                  <cbc:ElectronicMail>oferty.weia@pg.edu.pl</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00674236-2026</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">190/2026</efbc:GazetteID><efbc:PublicationDate>2026-10-01+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">c771b0c0-c570-4712-a8a8-4538e9efc47d</cbc:ID>
+  <cbc:ContractFolderID>40ce8ea4-78ed-4d56-9ffa-92a46828c114</cbc:ContractFolderID>
+  <cbc:IssueDate>2026-09-30Z</cbc:IssueDate>
+  <cbc:IssueTime>12:18:23Z</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cbc:BuyerProfileURI>https://platformazakupowa.pl/pn/pg_edu</cbc:BuyerProfileURI>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:Name languageID="POL">Dostawa sprzętu komputerowego dla Wydziału Elektrotechniki i Automatyki Politechniki Gdańskiej</cbc:Name>
+    <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa sprzętu komputerowego dla Wydziału Elektrotechniki i Automatyki Politechniki Gdańskiej, w tym: 10 szt. serwerów obliczeniowych i 20 szt. zestawów komputerów stacjonarnych. Zamówienie ma zostać dofinansowane ze środków Ministerstwa Nauki i Szkolnictwa Wyższego w ramach dotacji celowej na realizację inwestycji pod nazwą: „Zakup infrastruktury laboratoryjnej wspomagającej kształcenie na kierunkach strategicznych dla rozwoju gospodarki opartej o wiedzę: Automatyka, Robotyka i Systemy Sterowania oraz Sztuczna inteligencja”.
+2. Zamawiający nie dopuszcza składania ofert częściowych. 3. Miejsce realizacji przedmiotu zamówienia: Politechnika Gdańska Wydział Elektrotechniki i Automatyki, ul. Narutowicza 11/12, 80-233 Gdańsk, budynek nr 12 pok. 201. 4. Szczegółowy opis przedmiotu zamówienia zawiera Załącznik nr 3 do SWZ Opis przedmiotu zamówienia. 5. Wykonawca zobowiązany jest zrealizować zamówienie na zasadach i warunkach opisanych w projektowanych postanowieniach umowy stanowiących Załącznik nr 5 do SWZ. 6. Wykonawca zobowiązany jest do jednoznacznego określenia zaoferowanych produktów, charakteryzując je poprzez wskazanie w formularzu rzeczowo-cenowym, stanowiącym Załącznik nr 4 do SWZ, wymaganych informacji umożliwiających identyfikację zaoferowanego przedmiotu zamówienia. Formularz stanowi treść oferty i nie podlega uzupełnieniu. Zamawiający wymaga ponadto złożenia wraz z ofertą przedmiotowych środków dowodowych (dokumentację techniczną dla każdego elementu zaoferowanego przedmiotu zamówienia wyszczególnionego w Załączniku nr 3 tj. dla serwera, zestawu komputera stacjonarnego (jednostka centralna, monitor, klawiatura, mysz) potwierdzającą, że oferowane dostawy spełniają wymagania określone przez Zamawiającego w dokumentach zamówienia. Szczegółowe informacje zawiera Rozdział XVII SWZ. 7. Zgodnie z możliwościami, jakie daje ustawa z dnia 11 marca 2004 r. o podatku od towarów i usług (art. 83 ust. 1 pkt 26 lit. a tej ustawy – tj. Dz. U. z 2026 r. poz. 1263), Zamawiający podejmie działania w kierunku zastosowania „zerowej” stawki podatku VAT do serwerów i zestawów komputerów stacjonarnych, które ujęte są w załączniku nr 8 do tej ustawy. Jeżeli Ministerstwo Nauki i Szkolnictwa Wyższego nie przyśle stosownego zaświadczenia w terminie wystawiania faktury, Wykonawca wystawi fakturę z podatkiem VAT, a po otrzymaniu ww. zaświadczenia wystawi fakturę korygującą podatek VAT. 8. Przedmiot zamówienia musi być fabrycznie nowy, bez wcześniejszej eksploatacji, sprawny technicznie, wolny od wad prawnych i fizycznych, zgodny z zaleceniami, normami i obowiązującymi wymaganiami techniczno-eksploatacyjnymi obowiązującymi na terenie Rzeczypospolitej Polskiej. 9. Nomenklatura (kod) wg CPV - 48822000-6 Serwery komputerowe, 48820000-2 Serwery, 30213000-5 Komputery osobiste, 30213300-8 Komputer biurkowy, 30231300-0 Monitory ekranowe, 30237200-1 Akcesoria komputerowe. 10. Gwarancja i rękojmia: Zamawiający wymaga, aby Wykonawca udzielił gwarancji i rękojmi na oferowany przedmiot zamówienia w wymiarze co najmniej 24 miesięcy, liczonej od dnia podpisania protokołu zdawczo-odbiorczego bez uwag. 11. Zamawiający wymaga, aby termin realizacji całości zamówienia wyniósł do 14 dni kalendarzowych od dnia zawarcia umowy. Zamawiający informuje, iż z uwagi na warunki dofinansowania ostateczny, nieprzekraczalny termin wykonania obu części zamówienia finansowanego ze środków Ministerstwa Nauki i Szkolnictwa Wyższego ustala się na dzień 15.12.2026 r. Jest to maksymalny termin realizacji przedmiotu umowy liczony od dnia zawarcia umowy do dnia podpisania protokołu zdawczo-odbiorczego bez uwag. Uwaga! Graniczny końcowy termin realizacji całości umowy i zapłaty za fakturę ustala się na dzień 31.12.2026 r. Po tym terminie zamawiający nie będzie dysponował środkami na realizację przedmiotu umowy i odstąpi od umowy bez Wyznaczania dodatkowego terminu, a wykonawca nie będzie wysuwał w stosunku do niego żadnych roszczeń z tego tytułu.
+Zamawiający wymaga, aby oferowane świadczenie, w tym wszystkie produkty ICT, usługi ICT oraz procesy ICT wykorzystywane do realizacji zamówienia, zarówno jako elementy główne, jak i komponenty, elementy środowiska świadczenia usługi lub rozwiązania towarzyszące, nie obejmowało:
+1) produktów ICT, usług ICT lub procesów ICT wskazanych w rekomendacji, o której mowa w art. 33 ust. 4 ustawy z dnia 5 lipca 2018 r. o krajowym systemie
+cyberbezpieczeństwa, stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa;
+2) produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mowa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usług ICT lub procesów ICT określonych w tej decyzji.
+Niespełnienie powyższego wymagania skutkuje odrzuceniem oferty odpowiednio na podstawie art. 226 ust. 1 pkt 17 albo pkt 19 ustawy Pzp.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cbc:Note languageID="POL">Z postępowania o udzielenie zamówienia wykluczony zostanie Wykonawca, w stosunku do którego zachodzi którakolwiek z okoliczności, o których mowa w art. 108 ust. 1 ustawy Prawo zamówień publicznych, tj. wykonawcę: 
+1) będącego osobą fizyczną, którego prawomocnie skazano za przestępstwo: 
+a) udziału w zorganizowanej grupie przestępczej albo związku mającym na celu popełnienie przestępstwa lub przestępstwa skarbowego, o którym mowa w art. 258 Kodeksu karnego, 
+b) handlu ludźmi, o którym mowa w art. 189a Kodeksu karnego, 
+c) o którym mowa w art. 228–230a, art. 250a Kodeksu karnego, w art. 46–48 ustawy z dnia 25 czerwca 2010 r. o sporcie (Dz. U. z 2020 r.poz. 1133 oraz z 2021 r. poz. 2054) lub w art. 54 ust. 1–4 ustawy z dnia 12 maja 2011 r. o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych (Dz. U. z 2021 r. poz. 523, 1292, 1559 i 2054), 
+d) finansowania przestępstwa o charakterze terrorystycznym, o którym mowa w art. 165a Kodeksu karnego, lub przestępstwo udaremniania lub utrudniania stwierdzenia przestępnego pochodzenia pieniędzy lub ukrywania ich pochodzenia, o którym mowa w art. 299 Kodeksu karnego, 
+e) o charakterze terrorystycznym, o którym mowa w art. 115 § 20 Kodeksu karnego, lub mające na celu popełnienie tego przestępstwa, 
+f) powierzenia wykonywania pracy małoletniemu cudzoziemcowi, o którym mowa w art. 9 ust. 2 ustawy z dnia 15 czerwca 2012 r. o skutkach powierzania wykonywania pracy cudzoziemcom przebywającym wbrew przepisom na terytorium Rzeczypospolitej Polskiej (Dz. U. poz. 769 oraz z 2020 r. poz. 2023), 
+g) przeciwko obrotowi gospodarczemu, o których mowa w art. 296–307 Kodeksu karnego, przestępstwo oszustwa, o którym mowa w art. 286 Kodeksu karnego, przestępstwo przeciwko wiarygodności dokumentów, o których mowa w art. 270–277d Kodeksu karnego, lub przestępstwo skarbowe, 
+h) o którym mowa w art. 9 ust. 1 i 3 lub art. 10 ustawy z dnia 15 czerwca 2012 r. o skutkach powierzania wykonywania pracy cudzoziemcom przebywającym wbrew przepisom na terytorium Rzeczypospolitej Polskiej – lub za odpowiedni czyn zabroniony określony w przepisach prawa obcego; 2) jeżeli urzędującego członka jego organu zarządzającego lub nadzorczego, wspólnika spółki w spółce jawnej lub partnerskiej albo komplementariusza w spółce komandytowej lub komandytowo-akcyjnej lub prokurenta prawomocnie skazano za przestępstwo, o którym mowa w pkt 1; 
+3) wobec którego wydano prawomocny wyrok sądu lub ostateczną decyzję administracyjną o zaleganiu z uiszczeniem podatków, opłat lub składek na ubezpieczenie społeczne lub zdrowotne, chyba że wykonawca odpowiednio przed upływem terminu do składania wniosków o dopuszczenie do udziału w postępowaniu albo przed upływem terminu składania ofert dokonał płatności należnych podatków, opłat lub składek na ubezpieczenie społeczne lub zdrowotne wraz z odsetkami lub grzywnami lub zawarł wiążące porozumienie w sprawie spłaty tych należności; 
+4) wobec którego prawomocnie orzeczono zakaz ubiegania się o zamówienia publiczne; 
+5) jeżeli zamawiający może stwierdzić, na podstawie wiarygodnych przesłanek, że wykonawca zawarł z innymi wykonawcami porozumienie mające na celu zakłócenie konkurencji, w szczególności jeżeli należąc do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów, złożyli odrębne oferty, oferty częściowe lub wnioski o dopuszczenie do udziału w postępowaniu, chyba że wykażą, że przygotowali te oferty lub wnioski niezależnie od siebie; 
+6) jeżeli, w przypadkach, o których mowa w art. 85 ust. 1, doszło do zakłócenia konkurencji wynikającego z wcześniejszego zaangażowania tego wykonawcy lub podmiotu, który należy z wykonawcą do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów, chyba że spowodowane tym zakłócenie konkurencji może być wyeliminowane w inny sposób niż przez wykluczenie wykonawcy z udziału w postępowaniu o udzielenie zamówienia. 
+7) Ponadto o udzielenie przedmiotowego zamówienia nie mogą ubiegać się wykonawcy, którzy podlegają wykluczeniu na podstawie na podstawie art. 5k rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L 229 z 31.7.2014, str. 1), dalej: rozporządzenie 833/2014, w brzmieniu nadanym rozporządzeniem Rady (UE) 2022/576 w sprawie zmiany rozporządzenia (UE) nr 833/2014 dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz. Urz. UE nr L 111 z 8.4.2022, str. 1), dalej: rozporządzenie 2022/5762 oraz na podstawie art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (Dz. U. poz. 835).3 Powyższe wykluczenie następować będzie na okres trwania ww. okoliczności.
+Zamawiający nie przewiduje fakultatywnych przesłanek wykluczenia z udziału w postępowaniu na podstawie art. 109 ust. 1 ustawy Pzp.
+8) Zgodnie z art. 139 ustawy Pzp Zamawiający przewiduje odwróconą kolejność oceny ofert. Zamawiający może najpierw dokonać badania i oceny ofert, a następnie dokonać kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia. 9) Informacja o podmiotowych środkach dowodowych: 1. Zgodnie z art. 126 ust. 1 ustawy Pzp Zamawiający przed wyborem najkorzystniejszej oferty wezwie Wykonawcę, którego oferta została najwyżej oceniona, do złożenia w wyznaczonym terminie, nie krótszym niż 10 dni, aktualnych na dzień złożenia następujących podmiotowych środków dowodowych potwierdzających okoliczności, o których mowa w art. 124 pkt. 1 ustawy Pzp: na potwierdzenie braku podstaw wykluczenia 
+1)	informacji z Krajowego Rejestru Karnego w zakresie:
+a)	art. 108 ust. 1 pkt 1 i 2 ustawy Pzp, b)	art. 108 ust. 1 pkt 4 ustawy Pzp, dotyczącej orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka karnego
+sporządzonej nie wcześniej niż 6 miesięcy przed jej złożeniem;
+2)	oświadczenia Wykonawcy, w zakresie art. 108 ust. 1 pkt 5 ustawy Pzp, o braku przynależności do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów (t.j. Dz. U. z 2025 r. poz. 1714), z innym wykonawcą, który złożył odrębną ofertę lub ofertę częściową albo oświadczenia o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty lub oferty częściowej niezależnie od innego wykonawcy należącego do tej samej grupy kapitałowej, sporządzonego z wykorzystaniem wzoru stanowiącego załącznik nr 7 do SWZ;
+3)	oświadczenia Wykonawcy o aktualności informacji zawartych w oświadczeniu, o którym mowa w art. 125 ust. 1 ustawy Pzp, w zakresie podstaw wykluczenia z postępowania wskazanych przez Zamawiającego w rozdz. XIV ust. 2 i 3 SWZ, o których mowa w:
+a)	art. 108 ust. 1 pkt 3 ustawy Pzp, b)	art. 108 ust. 1 pkt 4 ustawy Pzp, dotyczących orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka zapobiegawczego,
+c)	art. 108 ust. 1 pkt 5 ustawy Pzp, dotyczących zawarcia z innymi wykonawcami porozumienia mającego na celu zakłócenie konkurencji, d) art. 108 ust. 1 pkt 6 ustawy Pzp,
+oraz o których mowa w:
+−	art. 5k rozporządzenia 833/2014
+−	art. 7 ust. 1 ustawy sankcyjnej
+Zamawiający prosi o niezałączanie podmiotowych środków dowodowych wraz z ofertą. Niepodleganie wykluczeniu w zakresie podstaw wykluczenia wskazanych w art. 108 ust. 1 Pzp może zostać potwierdzone	ważnym certyfikatem wykonawcy, jeżeli z treści certyfikatu wynika potwierdzenie niepodlegania wykluczeniu w zakresie danej podstawy wykluczenia, a dane zawarte w oświadczeniu JEDZ składanym wraz z ofertą, umożliwiają zamawiającemu identyfikację certyfikatu oraz jego samodzielne uzyskanie. Informację o certyfikacie wykonawca zamieszcza w części II sekcji A, w polu dotyczącym wpisu do urzędowego wykazu zatwierdzonych wykonawców albo posiadania równoważnego certyfikatu. Wykonawca powinien podać dane umożliwiające: identyfikację certyfikatu; ustalenie podmiotu certyfikującego;	odnalezienie certyfikatu w bazie; ustalenie zakresu, w jakim wykonawca zamierza się nim posługiwać.Certyfikat nie zastępuje podmiotowych środków dowodowych dotyczących podstaw wykluczenia nieobjętych certyfikacją, w szczególności art. 108 ust. 1 pkt 6 ustawy Pzp, art. 7 ust. 1 ustawy z 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego, a także okoliczności zaistniałych w toku niniejszego postępowania oraz art. 5k rozporządzenia Rady (UE) nr 833/2014 z 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie (Dz.Urz. UE nr L 229 z 31 lipca 2014 r., str. 1).
+Oferta musi zawierać następujące oświadczenia i dokumenty: Składane w terminie złożenia oferty:1.	Formularz oferty sporządzony z wykorzystaniem wzoru stanowiącego Załącznik nr 1 do SWZ.2.Formularz rzeczowo-cenowy sporządzony z wykorzystaniem wzoru stanowiącego Załącznik nr 4 do SWZ.3.	Oświadczenie o niepodleganiu wykluczeniu i spełnianiu warunków udziału 
+w postępowaniu, na formularzu JEDZ, sporządzone z wykorzystaniem wzoru, stanowiącego Załącznik nr 2 do SWZ. 4.Oświadczenie dotyczące przesłanek wykluczenia z art. 5k rozporządzenia 833/2014 oraz art. 7 ust. 1 ustawy sankcyjnej sporządzone z wykorzystaniem wzoru stanowiącego Załącznik nr 6 do SWZ. 5.	Przedmiotowe środki dowodowe, o których mowa w rozdziale XVII SWZ. 6.Pełnomocnictwo dla osoby reprezentującej w niniejszym postępowaniu Wykonawcę lub pełnomocnictwo dla osoby lub podmiotu reprezentującego kilku Wykonawców składających ofertę wspólną (jeżeli dotyczy).</cbc:Note>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">48822000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">48820000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30213000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30213300</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30231300</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">30237200</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CountrySubentityCode listName="nuts">PL633</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:RequiredFinancialGuarantee>
+        <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+      </cac:RequiredFinancialGuarantee>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>POL</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>CRZP/213/014/D/26</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://platformazakupowa.pl/transakcja/1383553</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="POL">Cena oferty</cbc:Name>
+            <cbc:Description languageID="POL">Ocenie podlega cena oferty brutto w PLN, wynikająca z oferty Wykonawcy. Ofercie z najniższą ceną spośród nieodrzuconych ofert Zamawiający przyzna maksymalną liczbę punktów – 60 pkt. 
+Pozostałym ofertom Zamawiający przyzna punkty obliczone wg wzoru:  C=Cn/Cb  x 60, gdzie:
+C – liczba punktów przyznanych ocenianej ofercie w kryterium cena oferty 
+Cn – najniższa cena oferty spośród ofert podlegających ocenie
+Cb – cena oferty badanej (ocenianej)
+60 – waga kryterium „cena oferty”
+Obliczenia dokonywane będą przez Zamawiającego z dokładnością do dwóch miejsc po przecinku. 
+W kryterium "cena oferty" (C) oferta może uzyskać maksymalnie 60 pkt.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="POL">Okres gwarancji i rękojmi</cbc:Name>
+            <cbc:Description languageID="POL">a)	Ocenie podlegać będzie okres gwarancji i rękojmi wyrażony w pełnych miesiącach wynikający z oferty złożonej przez Wykonawcę.
+b)	Okres gwarancji i rękojmi nie może być krótszy niż 24 miesiące oraz dłuższy niż 60 miesięcy.
+c)	Kryterium „okres gwarancji i rękojmi” rozpatrywane będzie na podstawie następującego wzoru: G = (Gb / Gmax ) x 30, gdzie:
+G – liczba punktów przyznanych w kryterium „Okres gwarancji i rękojmi”
+Gb  – okres gwarancji i rękojmi oferty badanej (ocenianej)
+Gmax – najdłuższy zaoferowany okres gwarancji i rękojmi spośród złożonych ofert podlegających ocenie
+30 – waga kryterium „okres gwarancji i rękojmi”
+W kryterium "okres gwarancji i rękojmi" (G) oferta może uzyskać maksymalnie 30 pkt.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="POL">Termin naprawy</cbc:Name>
+            <cbc:Description languageID="POL">W kryterium termin naprawy punkty zostaną przyznane w następujący sposób:
+Termin naprawy do 5 dni roboczych – oferta otrzyma 10 pkt.
+Termin naprawy od 6 do 10 dni roboczych – oferta otrzyma 0 pkt.
+W przypadku niewpisania w formularzu oferty terminu naprawy Zamawiający przyzna punkty jak za maksymalny dopuszczalny termin naprawy (6-10 dni roboczych, tj. 0 pkt).
+W przypadku zaproponowania terminu naprawy dłuższego niż 10 dni roboczych, Zamawiający odrzuci ofertę.
+W kryterium "termin naprawy" oferta może uzyskać maksymalnie 10 pkt.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID>ORG-0002</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:DocumentProviderParty>
+        <cac:PartyIdentification>
+          <cbc:ID>ORG-0002</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:DocumentProviderParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://platformazakupowa.pl/transakcja/1383553</cbc:EndpointID>
+        <cac:PartyIdentification>
+          <cbc:ID>ORG-0002</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:TenderRecipientParty>
+      <cac:TenderEvaluationParty>
+        <cac:PartyIdentification>
+          <cbc:ID>ORG-0002</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:TenderEvaluationParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="POL">1. Odwołanie wnosi się w terminie 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej 2. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia, wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 3. Odwołanie w przypadkach innych niż określone w pkt. 6 i 7 wnosi się w terminie 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia, 4. Szczegółowe informacje dotyczące środków ochrony prawnej określone są w Dziale IX „Środki ochrony prawnej” ustawy Pzp.</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealInformationParty>
+          <cac:PartyIdentification>
+            <cbc:ID>ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealInformationParty>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID>ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>POL</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2026-11-02+01:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+01:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2026-11-02+01:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>10:05:00+01:00</cbc:OccurrenceTime>
+        <cbc:Description languageID="POL">Termin związania ofertą określony datą: 2027-01-30</cbc:Description>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:Name languageID="POL">Dostawa sprzętu komputerowego dla Wydziału Elektrotechniki i Automatyki Politechniki Gdańskiej</cbc:Name>
+      <cbc:Description languageID="POL">1. Przedmiotem zamówienia jest dostawa sprzętu komputerowego dla Wydziału Elektrotechniki i Automatyki Politechniki Gdańskiej, w tym: 10 szt. serwerów obliczeniowych i 20 szt. zestawów komputerów stacjonarnych. Zamówienie ma zostać dofinansowane ze środków Ministerstwa Nauki i Szkolnictwa Wyższego w ramach dotacji celowej na realizację inwestycji pod nazwą: „Zakup infrastruktury laboratoryjnej wspomagającej kształcenie na kierunkach strategicznych dla rozwoju gospodarki opartej o wiedzę: Automatyka, Robotyka i Systemy Sterowania oraz Sztuczna inteligencja”.
+2. Zamawiający nie dopuszcza składania ofert częściowych. 3. Miejsce realizacji przedmiotu zamówienia: Politechnika Gdańska Wydział Elektrotechniki i Automatyki, ul. Narutowicza 11/12, 80-233 Gdańsk, budynek nr 12 pok. 201. 4. Szczegółowy opis przedmiotu zamówienia zawiera Załącznik nr 3 do SWZ Opis przedmiotu zamówienia. 5. Wykonawca zobowiązany jest zrealizować zamówienie na zasadach i warunkach opisanych w projektowanych postanowieniach umowy stanowiących Załącznik nr 5 do SWZ. 6. Wykonawca zobowiązany jest do jednoznacznego określenia zaoferowanych produktów, charakteryzując je poprzez wskazanie w formularzu rzeczowo-cenowym, stanowiącym Załącznik nr 4 do SWZ, wymaganych informacji umożliwiających identyfikację zaoferowanego przedmiotu zamówienia. Formularz stanowi treść oferty i nie podlega uzupełnieniu. Zamawiający wymaga ponadto złożenia wraz z ofertą przedmiotowych środków dowodowych (dokumentację techniczną dla każdego elementu zaoferowanego przedmiotu zamówienia wyszczególnionego w Załączniku nr 3 tj. dla serwera, zestawu komputera stacjonarnego (jednostka centralna, monitor, klawiatura, mysz) potwierdzającą, że oferowane dostawy spełniają wymagania określone przez Zamawiającego w dokumentach zamówienia. Szczegółowe informacje zawiera Rozdział XVII SWZ. 7. Zgodnie z możliwościami, jakie daje ustawa z dnia 11 marca 2004 r. o podatku od towarów i usług (art. 83 ust. 1 pkt 26 lit. a tej ustawy – tj. Dz. U. z 2026 r. poz. 1263), Zamawiający podejmie działania w kierunku zastosowania „zerowej” stawki podatku VAT do serwerów i zestawów komputerów stacjonarnych, które ujęte są w załączniku nr 8 do tej ustawy. Jeżeli Ministerstwo Nauki i Szkolnictwa Wyższego nie przyśle stosownego zaświadczenia w terminie wystawiania faktury, Wykonawca wystawi fakturę z podatkiem VAT, a po otrzymaniu ww. zaświadczenia wystawi fakturę korygującą podatek VAT. 8. Przedmiot zamówienia musi być fabrycznie nowy, bez wcześniejszej eksploatacji, sprawny technicznie, wolny od wad prawnych i fizycznych, zgodny z zaleceniami, normami i obowiązującymi wymaganiami techniczno-eksploatacyjnymi obowiązującymi na terenie Rzeczypospolitej Polskiej. 9. Nomenklatura (kod) wg CPV - 48822000-6 Serwery komputerowe, 48820000-2 Serwery, 30213000-5 Komputery osobiste, 30213300-8 Komputer biurkowy, 30231300-0 Monitory ekranowe, 30237200-1 Akcesoria komputerowe. 10. Gwarancja i rękojmia: Zamawiający wymaga, aby Wykonawca udzielił gwarancji i rękojmi na oferowany przedmiot zamówienia w wymiarze co najmniej 24 miesięcy, liczonej od dnia podpisania protokołu zdawczo-odbiorczego bez uwag. 11. Zamawiający wymaga, aby termin realizacji całości zamówienia wyniósł do 14 dni kalendarzowych od dnia zawarcia umowy. Zamawiający informuje, iż z uwagi na warunki dofinansowania ostateczny, nieprzekraczalny termin wykonania obu części zamówienia finansowanego ze środków Ministerstwa Nauki i Szkolnictwa Wyższego ustala się na dzień 15.12.2026 r. Jest to maksymalny termin realizacji przedmiotu umowy liczony od dnia zawarcia umowy do dnia podpisania protokołu zdawczo-odbiorczego bez uwag. Uwaga! Graniczny końcowy termin realizacji całości umowy i zapłaty za fakturę ustala się na dzień 31.12.2026 r. Po tym terminie zamawiający nie będzie dysponował środkami na realizację przedmiotu umowy i odstąpi od umowy bez Wyznaczania dodatkowego terminu, a wykonawca nie będzie wysuwał w stosunku do niego żadnych roszczeń z tego tytułu.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">1. Zamawiający nie stawia warunków udziału w niniejszym postępowaniu.
+2. Zamawiający żąda, aby Wykonawca złożył wraz z ofertą przedmiotowe środki dowodowe, tj.: dokumentację techniczną dla każdego elementu zaoferowanego przedmiotu zamówienia wyszczególnionego w Załączniku nr 3 do SWZ, tj. dla serwera, zestawu komputera stacjonarnego (jednostka centralna, monitor, klawiatura, mysz) potwierdzającą, że oferowane dostawy spełniają wymagania określone przez Zamawiającego w dokumentach zamówienia. Przez dokumentację techniczną Zamawiający rozumie w szczególności:
+−	specyfikacje techniczne udostępniane przez producentów lub dystrybutorów
+−	karty katalogowe producenta lub dystrybutora
+−	opisy lub karty katalogowe sporządzone przez Wykonawcę na ich podstawie wraz ze wskazaniem źródeł pochodzenia przedstawionych informacji, np. adres strony www. producenta lub dystrybutora. W przypadku, gdy Wykonawca oferuje produkty własne, nie mogą one naruszać majątkowych praw autorskich osób trzecich.
+Wskazane źródła informacji, na podstawie których sporządzona została dokumentacja techniczna muszą być weryfikowalne w okresie prowadzonego postępowania. Dokumentacja techniczna musi potwierdzać wszystkie wymagane parametry techniczne przedmiotu zamówienia wyszczególnione w opisie przedmiotu zamówienia.
+Jeżeli wykonawca nie złoży przedmiotowych środków dowodowych lub złożone środki dowodowe będą niekompletne, zamawiający wezwie ich do złożenia lub uzupełnienia w wyznaczonym terminie, zgodnie z art. 107 ust. 2 ustawy Pzp.</cbc:Note>
+      <cac:RequestedTenderTotal>
+        <cbc:EstimatedOverallContractAmount currencyID="PLN">401698.9</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">48822000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">PL633</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:DurationMeasure unitCode="DAY">14</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:OptionsDescription languageID="POL">Nie dotyczy niniejszego postępowania.</cbc:OptionsDescription>
+        <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

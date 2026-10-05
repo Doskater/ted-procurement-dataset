@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "snapshot_id": "8579e3490b10c06439682b8967de7f29d470c00210eec678a9d31e9e069d2329",
+  "reference_id": "ad1fe8a334cfd96c3a2ac937001029b067b6069f7653f1697a829c0aaec2f497",
+  "files": {
+    "validated_notices.csv": "cbca41c41f531e5f18e466021aed36a328072c2310051e3660d95b982966e832",
+    "valid_not_selected.csv": "03a1543c5628913c6986400520ef506ac1478e1d94f19ce2f573d059ffc2a0bc",
+    "rejected_or_uncertain.csv": "7f258ab1acc969d823c282f1fbfaf650deadfd421313fc02138fc9f05dcdd953",
+    "record_ledger.csv": "4504276f316bcf39b93e0b48a2ba243fe190e315953ace33efd3f4eba772e2b1",
+    "result.json": "4b83d4b8af7c826d11bd8388340a5c2a0b305d24d1d61b07fa0361bce9d382f3",
+    "qa/expected_sample.json": "f7a214bba8a98f1b97856ac0d26000c1685ec876a0d1282762c41ab7d4cbb734"
+  },
+  "processing_code_sha256": "53e00a8b8d245e70fbacd4f17242554eaffe477f8a94e20f5ae5c4c8c13de1d0"
+}
